@@ -14,6 +14,9 @@ namespace CodingDojo.Greed
 
         public int Score(int[] values)
         {
+            if (values == null || values.Length == 0 || values.Length > 6 || values.Any(x => x > 6) ||
+                values.Any(x => x < 1))
+                throw new ArgumentException();
             var scorers = _scorerRepository.GetScorers();
             int final = 0;
             int[] unusedValues = values;
