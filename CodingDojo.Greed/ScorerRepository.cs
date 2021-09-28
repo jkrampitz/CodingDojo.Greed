@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using CodingDojo.Greed.Scorer;
 
 namespace CodingDojo.Greed
@@ -12,7 +10,8 @@ namespace CodingDojo.Greed
             return new List<IScorer>
             {
                 new SingleOneScorer(),
-                new SingleFiveScorer()
+                new SingleFiveScorer(),
+                new MoreThenThreeScorer()
             };
         }
     }

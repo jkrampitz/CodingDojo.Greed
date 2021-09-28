@@ -1,5 +1,4 @@
 using System;
-using System.Data;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CodingDojo.Greed.Tests
