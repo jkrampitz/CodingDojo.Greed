@@ -20,7 +20,7 @@ namespace CodingDojo.Greed
             var scorers = _scorerRepository.GetScorers();
             int final = 0;
             int[] unusedValues = values;
-            foreach (var scorer in scorers.OrderBy(x => x.Index))
+            foreach (var scorer in scorers.OrderByDescending(x => x.Index))
             {
                 var result = scorer.Check(unusedValues);
                 final += result.Score;

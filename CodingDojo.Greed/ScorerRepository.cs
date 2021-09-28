@@ -11,7 +11,9 @@ namespace CodingDojo.Greed
             {
                 new SingleOneScorer(),
                 new SingleFiveScorer(),
-                new MoreThenThreeScorer()
+                new MoreThenThreeScorer(),
+                new StraightScorer(),
+                new ThreePairScorer()
             };
         }
     }

@@ -35,6 +35,7 @@ namespace CodingDojo.Greed.Tests
         [DataRow(new int[] { 4, 4, 4, 4, 5, 1 }, 950)]
         [DataRow(new int[] { 3, 3, 3, 3, 3, 3 }, 2400)]
         [DataRow(new int[] { 1, 1, 4, 4, 5, 5 }, 800)]
+        [DataRow(new int[] { 3, 1, 6, 6, 1, 3 }, 800)]
         [DataRow(new int[] { 1, 2, 3, 4, 5, 6 }, 1200)]
         public void Score(int[] values, int expectedResult)
         {
