@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31409.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo.Greed", "CodingDojo.Greed\CodingDojo.Greed.csproj", "{996038B5-D636-4EC1-9513-F8174EE77F2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo.Greed.Tests", "CodingDojo.Greed.Tests\CodingDojo.Greed.Tests.csproj", "{B75DF333-622D-43CA-B83B-66E525E7A577}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{996038B5-D636-4EC1-9513-F8174EE77F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996038B5-D636-4EC1-9513-F8174EE77F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996038B5-D636-4EC1-9513-F8174EE77F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996038B5-D636-4EC1-9513-F8174EE77F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75DF333-622D-43CA-B83B-66E525E7A577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75DF333-622D-43CA-B83B-66E525E7A577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75DF333-622D-43CA-B83B-66E525E7A577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75DF333-622D-43CA-B83B-66E525E7A577}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A746595-33C9-4BDC-8C05-443F4CCE5769}
+	EndGlobalSection
+EndGlobal
